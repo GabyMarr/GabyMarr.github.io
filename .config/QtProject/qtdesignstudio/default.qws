@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtDesignStudio 4.3.2, 2024-03-06T19:42:29. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNQAAAAEAAACAAC8AVQBzAGUAcgBzAC8AZwBhAGIAcgBpAGUAbAAuAG0AYQByAHIAcgBlAHIAbwAvAFUAbgB0AGkAdABsAGUAZABQAHIAbwBqAGUAYwB0ADIALwBjAG8AbgB0AGUAbgB0AC8AUwBjAHIAZQBlAG4AMAAxAC4AdQBpAC4AcQBtAGwAAAAMAAAAACQAAAACAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAACIAAAABAAAAgAAvAFUAcwBlAHIAcwAvAGcAYQBiAHIAaQBlAGwALgBtAGEAcgByAHIAZQByAG8ALwBVAG4AdABpAHQAbABlAGQAUAByAG8AagBlAGMAdAAyAC8AYwBvAG4AdABlAG4AdAAvAFMAYwByAGUAZQBuADAAMQAuAHUAaQAuAHEAbQBsAAAAHgBTAGMAcgBlAGUAbgAwADEALgB1AGkALgBxAG0AbAAAACFRbWxKU0VkaXRvci5RdFF1aWNrRGVzaWduZXJFZGl0b3IAAAAB2AAAAA1jdXJyZW50ZWRpdG9yAAAAgAAvAFUAcwBlAHIAcwAvAGcAYQBiAHIAaQBlAGwALgBtAGEAcgByAHIAZQByAG8ALwBVAG4AdABpAHQAbABlAGQAUAByAG8AagBlAGMAdAAyAC8AYwBvAG4AdABlAG4AdAAvAFMAYwByAGUAZQBuADAAMQAuAHUAaQAuAHEAbQBsAAAAQgBRAG0AbABKAFMARQBkAGkAdABvAHIALgBRAHQAUQB1AGkAYwBrAEQAZQBzAGkAZwBuAGUAcgBFAGQAaQB0AG8AcgAAACQAAAACAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAACIAAAABAAAAzQAAAIAALwBVAHMAZQByAHMALwBnAGEAYgByAGkAZQBsAC4AbQBhAHIAcgByAGUAcgBvAC8AVQBuAHQAaQB0AGwAZQBkAFAAcgBvAGoAZQBjAHQAMgAvAGMAbwBuAHQAZQBuAHQALwBTAGMAcgBlAGUAbgAwADEALgB1AGkALgBxAG0AbAAAACFRbWxKU0VkaXRvci5RdFF1aWNrRGVzaWduZXJFZGl0b3IAAAAgAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAB0AAAAA</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/Users/gabriel.marrrero/UntitledProject2/UntitledProject2.qmlproject</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/Users/gabriel.marrrero/UntitledProject2/UntitledProject2.qmlproject</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Design</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/gabriel.marrrero/UntitledProject2/content</value>
+    <value type="int">200000</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/Users/gabriel.marrrero/UntitledProject2</value>
+    <value type="int">200000</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">AssetImporter.Import</value>
+   <value type="QString">AssetImporter.Error</value>
+   <value type="QString">AssetExporter.Export</value>
+   <value type="QString">Task.Category.QmlAnalysis</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">true</value>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+  </valuelist>
+ </data>
+</qtcreator>

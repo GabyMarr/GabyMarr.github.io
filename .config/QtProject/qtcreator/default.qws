@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtCreator 12.0.2, 2024-03-05T18:50:49. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNQAAAAEAAAB2AC8AVQBzAGUAcgBzAC8AZwBhAGIAcgBpAGUAbAAuAG0AYQByAHIAcgBlAHIAbwAvAFAAcgBvAGoAZQBjAHQAIABBAFYALwBQAHIAbwBqAGUAYwB0AEEAVgBfAEcAVQBJAC8ATwBsAGQAXwBHAFUASQAuAHUAaQAAAAwAAAAAJAAAAAIAAAAJAAAAAAAAAAEAAAAAAAAAAQAAANkAAAAJAAAAQgAAAAEAAAB2AC8AVQBzAGUAcgBzAC8AZwBhAGIAcgBpAGUAbAAuAG0AYQByAHIAcgBlAHIAbwAvAFAAcgBvAGoAZQBjAHQAIABBAFYALwBQAHIAbwBqAGUAYwB0AEEAVgBfAEcAVQBJAC8ATwBsAGQAXwBHAFUASQAuAHUAaQAAABQATwBsAGQAXwBHAFUASQAuAHUAaQAAABdRbWxKU0VkaXRvci5RTUxKU0VkaXRvcgAAAAGuAAAADWN1cnJlbnRlZGl0b3IAAAB2AC8AVQBzAGUAcgBzAC8AZwBhAGIAcgBpAGUAbAAuAG0AYQByAHIAcgBlAHIAbwAvAFAAcgBvAGoAZQBjAHQAIABBAFYALwBQAHIAbwBqAGUAYwB0AEEAVgBfAEcAVQBJAC8ATwBsAGQAXwBHAFUASQAuAHUAaQAAAC4AUQBtAGwASgBTAEUAZABpAHQAbwByAC4AUQBNAEwASgBTAEUAZABpAHQAbwByAAAAJAAAAAIAAAAJAAAAAAAAAAEAAAAAAAAAAQAAANkAAAAJAAAAQgAAAAEAAADBAAAAfgAvAFUAcwBlAHIAcwAvAGcAYQBiAHIAaQBlAGwALgBtAGEAcgByAHIAZQByAG8ALwBQAHIAbwBqAGUAYwB0ACAAQQBWAC8AUAByAG8AagBlAGMAdABBAFYAXwBHAFUASQAvAE8AbABkAF8ARwBVAEkALgB1AGkALgBxAG0AbAAAABdRbWxKU0VkaXRvci5RTUxKU0VkaXRvcgAAACAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAHQAAAAA=</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Edit</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Task.Category.QmlAnalysis</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+  </valuelist>
+ </data>
+</qtcreator>

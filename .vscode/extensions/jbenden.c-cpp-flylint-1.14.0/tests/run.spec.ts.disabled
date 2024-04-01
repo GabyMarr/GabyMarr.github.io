@@ -1,0 +1,89 @@
+import dedent from "dedent";
+import * as core from '@actions/core';
+// import { adjustLcovBasePath } from './lcov-provider';
+import path from 'path';
+
+const rootDir = path.resolve(process.cwd(), '.');
+
+/**
+ * Adjusts the base path of all the paths in an LCOV file
+ * The paths in the LCOV file will be joined with the provided base path
+ * @param lcovFile a string containing an entire LCOV file
+ * @param basePath the base path to join with the LCOV file paths
+ */
+export const adjustLcovBasePath = (lcovFile: string, basePath: string) =>
+    lcovFile.replace(/^SF:(.+)$/gm, (_, match) => `SF:${path.join(basePath, match)}`)
+
+// import { run } from './run';
+export async function run() {
+    try {
+        const pathToLint = core.getInput('path-to-lint');
+
+        if (pathToLint == '') {
+            throw new Error('No path specified');
+        }
+
+        // const file = fs.readFileSync(pathToLint, 'utf8');
+        const basePath = core.getInput('base-path');
+        const adjustedFile = basePath ? adjustLcovBasePath(pathToLint, basePath) : pathToLint;
+
+        linters.handleFile(adjustedFile, (err: string, body: string) => {
+            if (err) {
+                core.setFailed(err);
+            } else {
+                core.setOutput(adjustedFile, body);
+            }
+        });
+    } catch (error) {
+        core.setFailed(error.message);
+    }
+
+    return 0;
+}
+
+const fs = require('fs');
+
+import { expect } from 'chai';
+import 'mocha';
+
+const sinon = require('sinon');
+const sandbox = sinon.createSandbox();
+let getInput: any;
+
+describe('Run', () => {
+    afterEach(() => {
+        sandbox.restore();
+    });
+
+    let config: Settings;
+    let linter: Linter;
+
+    const setup = () => {
+        getInput = sandbox.stub(core, 'getInput');
+
+        getInput.withArgs('parallel').returns(1);
+
+        // get initial configuration settings
+        config = cloneDeep(defaultConfig[FLYLINT_ID]);
+
+        // create a Linter instance
+        linter = new Clang(config, process.cwd());
+
+        // Linter runs and takes stdout/stderr and produces stream of Diagnostics
+
+        // Settings should be a proxy to the actual settings, so they may be cached and used
+        // must be read from the C++ extension, or...
+    }
+
+    it('should run parallel', () => {
+        setup();
+
+        getInput.withArgs('parallel-finished').returns('');
+
+        run().then(
+            (result) => {
+                expect(result).to.equal(0);
+            }
+        );
+    });
+});

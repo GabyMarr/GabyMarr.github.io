@@ -1,0 +1,6 @@
+#Equinox secure storage version 1.0
+#Wed Mar 06 21:50:09 AST 2024
+org.eclipse.equinox.security.preferences.version=1
+org.eclipse.equinox.security.preferences.cipher=PBEWithHmacSHA512AndAES_256
+/org.eclipse.equinox.secure.storage/verification/org.eclipse.equinox.security.osxkeystoreintegration=org.eclipse.equinox.security.osxkeystoreintegration\tLJCmR9meAN/wwZj+RRQ/2A\=\=;+Q+5WwQd+L8\=,HwB0DebmMMNUuBj0xLwQU6iLHlsJj8ABI6YgkUZX3U4\=
+org.eclipse.equinox.security.preferences.keyFactory=PBEWithHmacSHA512AndAES_256

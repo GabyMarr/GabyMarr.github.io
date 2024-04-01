@@ -1,0 +1,52 @@
+{
+	"name": "hiberbee-vscode-theme",
+	"displayName": "Hiberbee Theme",
+	"icon": "icon.png",
+	"version": "0.7.0",
+	"repository": {
+		"url": "https://github.com/hiberbee/jetbrains-ide-theme",
+		"type": "git",
+		"directory": "src/vscode"
+	},
+	"publisher": "Hiberbee",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"scripts": {
+		"start": "code",
+		"build": "vsce package --no-yarn --out=dist/hiberbee-theme-vscode.vsix",
+		"publish": "vsce publish --no-git-tag-version"
+	},
+	"eslintConfig": {
+		"extends": "@bn-digital/eslint-config/typescript"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Hiberbee",
+				"uiTheme": "vs-dark",
+				"path": "./Hiberbee.json"
+			}
+		]
+	},
+	"dependencies": {
+		"@vscode/vsce": "^2.18.0"
+	},
+	"packageManager": "yarn@3.3.1",
+	"__metadata": {
+		"id": "62c55f62-5b7e-4741-8a1c-29e266c7ae6a",
+		"publisherId": "518111a9-dd5f-4c66-b13c-080de2797145",
+		"publisherDisplayName": "Hiberbee",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1709777408818,
+		"pinned": false,
+		"preRelease": false
+	}
+}

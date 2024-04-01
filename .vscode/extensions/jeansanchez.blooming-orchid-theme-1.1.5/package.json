@@ -1,0 +1,63 @@
+{
+	"name": "blooming-orchid-theme",
+	"displayName": "Blooming Orchid Theme",
+	"icon": "logo.png",
+	"marketplace-page": {
+		" background-color": "#055728"
+	},
+	"description": "Introducing the \"Blooming Orchid Theme\", a meticulously crafted code theme that builds upon the foundation of the popular Legendary Dark theme by Llewellyn Adonteng Paintsil. Designed with the goal of enhancing readability, the theme takes inspiration from the elegance of nature's vibrant orchids.",
+	"version": "1.1.5",
+	"publisher": "JeanSanchez",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JeanSanchezFelix/Blooming-Orchid-Theme.git"
+	},
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"keywords": [
+		"theme",
+		"dark",
+		"dark theme",
+		"vscode theme",
+		"orchid",
+		"low contrast",
+		"colorful",
+		"pastel",
+		"readability",
+		"Legendary Dark theme",
+		"Andromeda",
+		"SynthWave",
+		"SynthWave '84",
+		"Java",
+		"C++",
+		"Python",
+		"JavaScript",
+		"CSS",
+		"HTML",
+		"MATLAB"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Blooming Orchid",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Blooming Orchid-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "0a200b27-8ea0-444d-9f8f-1b54730202f7",
+		"publisherId": "b78e3bc6-abdb-41d8-a2a6-24e914dc9860",
+		"publisherDisplayName": "Jean Sanchez",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1709777450743,
+		"pinned": false
+	}
+}
